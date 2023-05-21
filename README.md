@@ -23,12 +23,12 @@ Como sistemas de backend implementar a solução em **.NET Core, NodeJs, Elixir 
 2. Armazenar as informações em uma base de dados a sua escolha.
 3. Implementar uma API que consulte as informações na sua base de dados, retorne o valor do ativo nos últimos 30 pregões e apresente a variação do preço no período. Você deverá considerar o valor de abertura (*chart.result.indicators.quote.open*)
 
-## Frontend (Angular, React ou Vue)
+## Frontend (Angular, Vue ou React)
 1. Consultar o preço do ativo na API do Yahoo Finance (este é um exemplo da consulta do ativo PETR4 https://query2.finance.yahoo.com/v8/finance/chart/PETR4.SA)
 2. Implementar uma página em Angular que apresente o valor do ativo nos últimos 30 pregões e mostre a variação do preço no período. Você deverá considerar o valor de abertura (*chart.result.indicators.quote.open*)
 3. Inclua um gráfico apresentando o resultado da variação.
 
-## Mobile (Liguagens nativas e React ou Flutter)
+## Mobile (Liguagens nativas e Flutter ou React)
 1. Implementar o core da aplicação a talea inicial em linguagem nativa.
 2. Para implementações Android, considerar Kotlin ou Java.
 3. Para implementações iOS, considerar UIKit ou SwiftUI.

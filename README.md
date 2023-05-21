@@ -1,6 +1,6 @@
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
-![Dart Version](https://img.shields.io/static/v1?label=dart&message=2.19.4&color=00579d)
+![Dart Version](https://img.shields.io/static/v1?label=dart&message=3.0.1&color=00579d)
 ![Flutter Version](https://img.shields.io/static/v1?label=flutter&message=3.10.1&color=42a5f5)
 
 # **Variação de Ativo**
@@ -28,7 +28,7 @@ Como sistemas de backend implementar a solução em **.NET Core ou Go**. Para mo
 2. Implementar uma página em Angular que apresente o valor do ativo nos últimos 30 pregões e mostre a variação do preço no período. Você deverá considerar o valor de abertura (*chart.result.indicators.quote.open*)
 3. Inclua um gráfico apresentando o resultado da variação.
 
-## Mobile (Nativo, React e Flutter)
+## Mobile (Nativo e React ou Flutter)
 1. Implementar o core da aplicação a talea inicial em linguagem nativa.
 2. Para implementações Android, considerar Kotlin ou Java.
 3. Para implementações iOS, considerar UIKit ou SwiftUI.

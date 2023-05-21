@@ -39,7 +39,7 @@ Como sistemas de backend implementar a solução em **.NET Core ou Go**. Para mo
 Você pode ainda montar a parte de Backend deste desafio e consumir sua própria API para acessar a API do Yahoo Finance. Fica a sua escolha. :smirk:
 
 ## Sobre a avaliação
-:bangbang: :bangbang:  Utilize os recursos disponíveis na linguagem que você está se candidatando:
+:bangbang: Utilize os recursos disponíveis na linguagem:
 * Padrões de projetos 
 * Arquiteturas
 * Testes unitários

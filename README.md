@@ -16,7 +16,7 @@ Este desafio consiste em consultar a variação do preço de um ativo a sua esco
 
 Para este desafio, iremos utilizar a API do Yahoo Finance https://finance.yahoo.com/ 
 
-Como sistemas de backend implementar a solução em **.NET Core ou Go**. Para mobile, utilizar **linguagens nativas e flutter**.
+Como sistemas de backend implementar a solução em **.NET Core, NodeJs, Elixir ou Go**. Para frontend, utilizar **Angular, React ou Vue** Para mobile, utilizar **liguagens nativas e React ou Flutter**.
 
 ## Backend (.NET Core, NodeJs, Elixir ou Go)
 1. Consultar o preço do ativo na API do Yahoo Finance (este é um exemplo da consulta do ativo PETR4 https://query2.finance.yahoo.com/v8/finance/chart/PETR4.SA)
@@ -28,7 +28,7 @@ Como sistemas de backend implementar a solução em **.NET Core ou Go**. Para mo
 2. Implementar uma página em Angular que apresente o valor do ativo nos últimos 30 pregões e mostre a variação do preço no período. Você deverá considerar o valor de abertura (*chart.result.indicators.quote.open*)
 3. Inclua um gráfico apresentando o resultado da variação.
 
-## Mobile (Nativo e React ou Flutter)
+## Mobile (Liguagens nativas e React ou Flutter)
 1. Implementar o core da aplicação a talea inicial em linguagem nativa.
 2. Para implementações Android, considerar Kotlin ou Java.
 3. Para implementações iOS, considerar UIKit ou SwiftUI.

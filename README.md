@@ -7,44 +7,51 @@
 
 Este desafio consiste em consultar a variação do preço de um ativo a sua escolha nos últimos 30 pregões. Você deverá apresentar o percentual de variação de preço de um dia para o outro e o percentual desde o primeiro pregão apresentado.
 
-| Dia   | Data          |  Valor    | Variação em relaçào a D-1     | Variação em relação a primeira data
-|-      | -             | -         | -                             | - 
-|2      |  01/01/2021   |  R$ 1,00  | -                             | -
-|3      |  02/01/2021   |  R$ 1,10  | 10%                           | 10%
-|4      |  03/01/2021   |  R$ 1,05  | -4,54%                        | 5%
-|5      |  04/01/2021   |  R$ 1,90  | 80,95%                        | 90%
+| Dia | Data       | Valor   | Variação em relaçào a D-1 | Variação em relação a primeira data |
+| --- | ---------- | ------- | ------------------------- | ----------------------------------- |
+| 2   | 01/01/2021 | R$ 1,00 | -                         | -                                   |
+| 3   | 02/01/2021 | R$ 1,10 | 10%                       | 10%                                 |
+| 4   | 03/01/2021 | R$ 1,05 | -4,54%                    | 5%                                  |
+| 5   | 04/01/2021 | R$ 1,90 | 80,95%                    | 90%                                 |
 
-Para este desafio, iremos utilizar a API do Yahoo Finance https://finance.yahoo.com/ 
+Para este desafio, iremos utilizar a API do Yahoo Finance https://finance.yahoo.com/
 
-Como sistemas de backend implementar a solução em **.NET Core, NodeJs, Elixir ou Go**. Para frontend, utilizar **Angular, React ou Vue**. Para mobile, utilizar **liguagens nativas e React ou Flutter**.
+Como sistemas de backend implementar a solução em **.NET Core, NodeJs ou Go**. Para frontend, utilizar **Angular ou React**. Para mobile, utilizar **liguagens nativas e React ou Flutter**.
 
-## Backend (.NET Core, NodeJs, Elixir ou Go)
+## Backend (.NET Core, NodeJs ou Go)
+
 1. Consultar o preço do ativo na API do Yahoo Finance (este é um exemplo da consulta do ativo PETR4 https://query2.finance.yahoo.com/v8/finance/chart/PETR4.SA)
 2. Armazenar as informações em uma base de dados a sua escolha.
-3. Implementar uma API que consulte as informações na sua base de dados, retorne o valor do ativo nos últimos 30 pregões e apresente a variação do preço no período. Você deverá considerar o valor de abertura (*chart.result.indicators.quote.open*)
+3. Implementar uma API que consulte as informações na sua base de dados, retorne o valor do ativo nos últimos 30 pregões e apresente a variação do preço no período. Você deverá considerar o valor de abertura (_chart.result.indicators.quote.open_)
 
-## Frontend (Angular, Vue ou React)
+## Frontend (Angular ou React)
+
 1. Consultar o preço do ativo na API do Yahoo Finance (este é um exemplo da consulta do ativo PETR4 https://query2.finance.yahoo.com/v8/finance/chart/PETR4.SA)
-2. Implementar uma página em Angular que apresente o valor do ativo nos últimos 30 pregões e mostre a variação do preço no período. Você deverá considerar o valor de abertura (*chart.result.indicators.quote.open*)
+2. Implementar uma página em Angular que apresente o valor do ativo nos últimos 30 pregões e mostre a variação do preço no período. Você deverá considerar o valor de abertura (_chart.result.indicators.quote.open_)
 3. Inclua um gráfico apresentando o resultado da variação.
 
-## Mobile (Liguagens nativas e Flutter ou React)
+## Mobile (Liguagens nativas e React ou Flutter)
+
 1. Implementar o core da aplicação a talea inicial em linguagem nativa.
 2. Para implementações Android, considerar Kotlin ou Java.
 3. Para implementações iOS, considerar UIKit ou SwiftUI.
 4. Consultar o preço do ativo na API do Yahoo Finance (este é um exemplo da consulta do ativo PETR4 https://query2.finance.yahoo.com/v8/finance/chart/PETR4.SA)
-5. Implementar uma tela em flutter que apresente a variação do preço do ativo nos últimos 30 pregões e mostre a rentabilidade no período. Você deverá considerar o valor de abertura (*chart.result.indicators.quote.open*)
+5. Implementar uma tela em flutter que apresente a variação do preço do ativo nos últimos 30 pregões e mostre a rentabilidade no período. Você deverá considerar o valor de abertura (_chart.result.indicators.quote.open_)
 6. Inclua um gráfico em linguagem nativa ou flutter apresentando o resultado da variação.
 
 Você pode ainda montar a parte de Backend deste desafio e consumir sua própria API para acessar a API do Yahoo Finance. Fica a sua escolha. :smirk:
 
 ## Sobre a avaliação
+
 :bangbang: Utilize os recursos disponíveis na linguagem:
-* Padrões de projetos 
-* Arquiteturas
-* Testes unitários
-* Configuração de deploy
+
+- Padrões de projetos
+- Arquiteturas
+- Testes unitários
+- Configuração de deploy
 
 ## Importante
+
 ### Sobre a API
-Os valores estrão estruturados em vetores, desta forma, você precisará casar a data do pregão (*chart.result.timestamp*) com o valor de abertura (*chart.result.indicators.quote.open*) através do indice do vetor.
+
+Os valores estrão estruturados em vetores, desta forma, você precisará casar a data do pregão (_chart.result.timestamp_) com o valor de abertura (_chart.result.indicators.quote.open_) através do indice do vetor.
